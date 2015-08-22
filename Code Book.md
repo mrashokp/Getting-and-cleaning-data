@@ -9,3 +9,9 @@
 6. data: This is a dataset obtained from 'extracted_combined_data' by gathering the variables in rows. The new column names are 'subject_id', 'activity', 'variable', and 'mean'
 7. grouped_data: this dataset is the 'data' grouped by 'subject_id','activity' and 'variable'.
 8. tidy_data: is the data with the average of each variable for each activity and each subject.
+9. activity_labels: are the labels identifying the activities
+10. features: list of variable names in test or train data
+11. subject_id_test: are labels identifying subjects in test data
+12. subject_id_train: are labels identifying subjects in train data
+13. test: test set
+14. train: training set
