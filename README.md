@@ -22,4 +22,4 @@
 5. From the data set in step 4, creates a second, independent tidy data set 
 with the average of each variable for each activity and each subject.
 
-  a. Using packages 'dplyr' and 'tidyr' a tidy data is created with 4 variables: 'subject_id','activity','variable',and 'mean'.
+  a. Using packages 'dplyr' and 'tidyr' a tidy data is created with 4 variables: 'subject_id','activity','feature',and 'mean'.
