@@ -1,6 +1,6 @@
 # Getting-and-cleaning-data: Course Project
 ## Human Activity Recognition using smartphones
-###The project requires to submit a R script that
+###The project requires to submit an R script that
 1. Merges the training and the test sets to create one data set.
 
   a. The script first loads the test and train data from the downloaded text files.
