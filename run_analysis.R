@@ -68,10 +68,10 @@ names(extracted_combined_df)[-(1:2)] <- grep("mean|std",features,value=T)
 
 #5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 library(tidyr)
-data <- gather(extracted_combined_df,variable,value,-c(subject_id,activity))
+data <- gather(extracted_combined_df,feature,value,-c(subject_id,activity))
 
 library(dplyr)
-grouped_data <- group_by(data,subject_id,activity,variable)
+grouped_data <- group_by(data,subject_id,activity,feature)
 tidy_data <- summarise(grouped_data,mean=mean(value))
 View(tidy_data)
 write.table(tidy_data, file = "../tidy_data.txt",row.names = F)
